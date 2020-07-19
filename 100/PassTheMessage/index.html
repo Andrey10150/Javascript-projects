@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass the message</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item">
+            <h4 class="text">A message you would like to pass</h4>
+            <form id="message-form">
+                <input type="text">
+                <button type="button" onclick="getInput()">Submit</button>
+                <h5 id="warning">please enter a value to pass</h5>
+            </form>
+            <h4 class="text">Last message delivered</h4>
+            <h4 id="last-message">Hello</h4>
+        </div>
+    </div>
+</body>
+
+</html>
